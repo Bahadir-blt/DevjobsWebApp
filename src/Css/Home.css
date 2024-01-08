@@ -1,0 +1,239 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&family=Open+Sans:wght@400;600;700&display=swap');
+
+ * {
+     background: #F4F6F8;
+ }
+
+ .container {
+     display: inline-block;
+     width: 100%;
+     height: 160px;
+     flex-shrink: 0;
+     border-radius: 0px 0px 0px 100px;
+
+ }
+
+ .textDevjobs {
+     background-color: #5964E0;
+     color: rgba(255, 255, 255, 1);
+     position: absolute;
+     width: 115px;
+     font-size: 32px;
+     top: 44px;
+     left: 165px;
+ }
+
+ .footerImage {
+     display: block;
+     width: 100%;
+     color: #F4F6F8;
+ }
+
+ .filterconatiner {
+     width: 140px;
+     background-color: #000;
+ }
+
+ .darkMode img {
+     position: relative;
+     background-color: #5964E0;
+     margin-left: 1163px;
+     margin-right: 165px;
+     bottom: 90px;
+     top: -25px;
+     cursor: pointer;
+ }
+ .inputLabel {
+     position: absolute;
+     width: 1110px;
+     height: 80px;
+     flex-shrink: 0;
+     border-radius: 6px;
+     background: #FFF;
+     color: (255, 255, 255, 1);
+     align-items: center;
+     margin-left: 200px;
+     margin-top: -28px;
+     justify-content: center;
+ }
+
+ .filter {
+     border: none;
+     background: #FFF;
+     width: 400px;
+     margin-left: 70px;
+     cursor: pointer;
+ }
+
+ .filter::placeholder {
+     position: absolute;
+     color: #19202D;
+     opacity: 1;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     text-align: center;
+     outline: none;
+ }
+
+ .searchImage {
+     display: inline-flex;
+     background: none;
+     margin-top: 25px;
+     margin-right: -60px;
+     margin-left: 15px;
+     vertical-align: text-bottom;
+     align-items: center;
+ }
+
+ .filter:focus {
+     outline: none;
+ }
+
+ .location {
+     border: none;
+     background: #FFF;
+     width: 300px;
+     margin-left: 70px;
+     cursor: pointer;
+ }
+
+ .locationImage::placeholder {
+     position: absolute;
+     color: #19202D;
+     opacity: 1;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     text-align: center;
+     outline: none;
+ }
+
+ .locationImage {
+     display: inline-flex;
+     background: none;
+     margin-top: 29px;
+     margin-right: -60px;
+     margin-left: 15px;
+     vertical-align: top;
+     align-items: center;
+ }
+
+ .location:focus {
+     outline: none;
+ }
+
+ .checkboxone {
+     cursor: pointer;
+ }
+
+ .checkbox {
+     cursor: pointer;
+     border: none;
+     background: #FFF;
+     width: 400px;
+     cursor: pointer;
+     vertical-align: text-bottom;
+     align-items: center;
+ }
+
+ .headerSearchButton {
+     width: 123px;
+     height: 48px;
+     flex-shrink: 0;
+     border-radius: 5px;
+     background: #5964E0;
+     border: none;
+     color: #fff;
+     margin-left: 50px;
+     cursor: pointer;
+ }
+ .headerSearchButton:hover{
+    background: #939BF4;
+    transition: -0.8ms;
+ } 
+
+ .test {
+     margin-top: 258px;
+ }
+
+ .cart{
+     margin-top: 186px;
+     margin-left: 100px;
+     align-items: center;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 30px;
+     height: 208px;
+     border-radius: 6px;
+     width: 1350px;
+
+ }
+ .elebration , .postedAt, .contract,.position, .company,.detaillocation{
+    border-radius: 6px;
+    background: #FFF;
+    margin-left: 12px;
+
+ }
+ .dataImage {
+    background: #FFF;
+    margin-left: 32px;
+ }
+ .at , .postedAt {
+    background-color: #fff;
+     color: rgba(110, 128, 152, 1);
+     font-size: 16px;
+     font-weight: 400;
+     margin-top: 24px;
+     margin-left: 15px;
+ }
+ .contract {
+     display: inline;
+     margin-right: 12px;
+     margin-left: 12px;
+ }
+ .position {
+     color: rgba(25, 32, 45, 1);
+     font-size: 20px;
+     font-weight: 700;
+     margin-top: 16px;
+     cursor: pointer;
+ }
+ .position:hover{
+    color: #9DAEC2;
+ }
+ .positionLink{
+    text-decoration: none;
+ }
+ .company {
+     color: rgba(110, 128, 152, 1);
+     font-size: 16px;
+     font-weight: 400;
+     margin-top: 17px;
+ }
+ .detaillocation {
+     color: rgba(89, 100, 224, 1);
+     margin-top: 44px;
+     margin-bottom: 36px;
+     font-family: Kumbh Sans;
+     font-size: 14px;
+     font-weight: 700;
+ }
+ .loadMoreButtonOne{
+    background-color: rgba(89, 100, 224, 1);
+    color:  #F4F6F8;
+    border: none    ;
+    width: 141px;
+    height: 48px;
+    margin-top: 1458px;
+    margin-left: 700px;
+    margin-right: 650px;
+    margin-bottom: 120px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+ }
+ .loadMoreButtonOne:hover{
+    background: #939BF4;
+    transition: -0.8ms;
+ }
