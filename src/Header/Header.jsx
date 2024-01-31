@@ -1,9 +1,10 @@
 import React from 'react'
 import '../Css/Home.css'
-import Form from '../Form'
+// import useLocalStorage from 'use-local-storage'
 
 
-export default function Header() {
+
+ function Header() {
    return (
       <>
          <div className="container">
@@ -18,3 +19,5 @@ export default function Header() {
       </>
    )
 }
+
+export default Header ;
