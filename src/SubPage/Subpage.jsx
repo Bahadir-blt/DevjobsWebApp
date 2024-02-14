@@ -6,6 +6,7 @@ export default function Subpage() {
     return (
         <>
             <div className="detailPageContainer">
+                
                 <span className='scootText'>Scoot   <h4 className='websiteAdress'>scoot.com</h4> <button className='companyButton'><p>Company Site</p></button>
                 </span> <img className='scoutLogo' src="src\İmage\DetailPage\DetailPageLogo\ScoutBigLogo.svg" alt="" />
                 <div className="textcontainer">
